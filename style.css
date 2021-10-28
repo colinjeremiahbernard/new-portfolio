@@ -1,0 +1,10 @@
+img {
+    width: 1190px;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1 {
+    color: blue;
+}
