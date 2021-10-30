@@ -1,45 +1,119 @@
-img {
+.beginning {
     width: 1190px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 30px;
     justify-content: center;
     margin-top: 20px;
+    border: 5px solid green;
+    position: relative;
+    z-index: 1;
 }
 h1 {
     color: blue;
     font-style: italic;
 }
-.star {
+#star {
     width: 300px;
     height: 300px;
     border: 5px solid green;
-    margin-left: 80px;
+    margin-left: 10px;
+    border-radius: 130px;
 }
 
 .d-flex {
     display:flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-button {
-    height: 50px;
+.butao {
+    height: 70px;
     width: 800px;
     margin-left: 30px;
     background-color: green;
     margin-top: 20px;
     border-radius: 20px;
-    color: white;
-    font-size: 40px;
-    
 }
 p {
     font-size: 30px;
     margin-left: 30px;
-    margin-right: 70px;
+    margin-right: 10px;
     color: blue;
     font-style: italic;
 }
 .butao {
-    text-decoration: center;
+    text-align: center;
+}
+.butao-1 {
+    background-image: linear-gradient(to right rgb(118, 146, 118) 0%, rgb(32, 138, 32) 51%, #008000 99%);
 }
 .butao:hover {
     background-color: gold;
+    color: green;
+    text-transform: uppercase;
+}
+.fancy {
+    font-size: 45px;
+    color: gold;
+}
+.fancy:hover {
+    color: green;
+}
+span {
+    color: gold;
+}
+.topo {
+    margin-left: 10px;
+
+    text-align: center;
+}
+.serious {
+    background-color: green;
+    width: 70px;
+    height: 40px;
+    color: gold;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serious:hover {
+    background-color: gold;
+    color: green;
+}
+#find {
+    display: flex;
+    font-size: medium;
+    column-gap: 300px;
+    justify-content: center;
+    
+    
+}
+.good {
+    
+    font-size: 30px !important;
+    color: green;
+}
+.fine {
+    text-decoration: underline gold;
+}
+.imp {
+    height: 40px;
+    width: 400px;
+    background-color: lightgray;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 60px;
+}
+.tant {
+    height: 100px;
+}
+.box2 {
+    width: 400px;
+    height: 160px;
+    position: absolute;
+    top: 40px;
+    left: 680px;
+    z-index: 2;
+
 }
