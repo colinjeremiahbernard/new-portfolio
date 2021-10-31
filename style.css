@@ -3,7 +3,7 @@
     height: 300px;
     border-radius: 30px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 0px;
     border: 5px solid green;
     position: relative;
     z-index: 1;
@@ -11,6 +11,7 @@
 h1 {
     color: blue;
     font-style: italic;
+    padding-top: 5px;
 }
 #star {
     width: 300px;
@@ -76,6 +77,7 @@ span {
     margin-left: 30px;
     text-align: center;
     margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 .serious:hover {
     background-color: gold;
@@ -96,6 +98,13 @@ span {
 }
 .fine {
     text-decoration: underline gold;
+    
+}
+.fine:hover {
+    border-bottom: brown;
+    cursor: pointer;
+    background-color: purple;
+    text-transform: uppercase;
 }
 .imp {
     height: 40px;
@@ -112,8 +121,37 @@ span {
     width: 400px;
     height: 160px;
     position: absolute;
-    top: 40px;
+    top: 145px;
     left: 680px;
     z-index: 2;
 
 }
+rect {
+    width: 1180px;
+    height: 70px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 90px !important;
+    padding-left: 30px;
+}
+h3 {
+    margin-left: 300px;
+    
+    justify-content: space-between;
+    padding-top: 15px;
+    justify-content: space-around;
+    display:flex;
+    
+}
+.AtLast {
+    background-color:green;
+    color: gold;
+    
+}
+.AtLast:hover {
+    background-color: purple;
+    
+}
+
