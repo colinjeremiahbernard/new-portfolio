@@ -71,12 +71,9 @@ span {
 .serious {
     background-color: green;
     width: 70px;
-    height: 40px;
+    height: 50px;
     color: gold;
-    margin-top: 0px;
     margin-left: 30px;
-    text-align: center;
-    margin-bottom: 20px;
     padding-bottom: 5px;
 }
 .serious:hover {
@@ -96,6 +93,7 @@ span {
     font-size: 30px !important;
     color: green;
 }
+
 .fine {
     text-decoration: underline gold;
     
