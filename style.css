@@ -1,4 +1,3 @@
-
 .beginning {
     width: 1190px;
     height: 300px;
@@ -23,7 +22,6 @@ h1 {
     margin-left: 10px;
     border-radius: 130px;
 }
-
 .d-flex {
     display:flex;
     margin-left: 50px;
@@ -56,9 +54,6 @@ p {
 .butao {
     text-align: center;
 }
-.butao-1 {
-    background-image: linear-gradient(to right rgb(118, 146, 118) 0%, rgb(32, 138, 32) 51%, #008000 99%);
-}
 .butao:hover {
     background-color: gold;
     color: green;
@@ -76,7 +71,6 @@ span {
 }
 .topo {
     margin-left: 10px;
-
     text-align: center;
 }
 .serious {
@@ -92,27 +86,20 @@ span {
     color: green;
 }
 #find {
-    
     font-size: medium;
     column-gap: 30px;
     justify-content: center;
-    
-    
 }
 #good {
     text-align: left;
     font-size: 20px;
     color: green;
 }
-
-.fine {
+ .fine {
     text-decoration: underline gold;
     width: 400px;
-    
-    
 }
 .fine:hover {
-    
     cursor: pointer;
     background-color: purple;
     text-transform: uppercase;
@@ -123,11 +110,9 @@ span {
     background-color:transparent;
     border: 0px;
     border-bottom: 2px solid aqua;
-    
 }
 .imp:focus {
     border-color: brown;
-    
 }
 #tant {
     height: 100px;
@@ -140,7 +125,6 @@ span {
     padding: 10px;
     padding-bottom: 98px;
     padding-top: 0px; 
-    
 }
 .box2 {
     width: 400px;
@@ -149,7 +133,6 @@ span {
     top: 145px;
     left: 680px;
     z-index: 2;
-
 }
 rect {
     width: 1180px;
@@ -163,22 +146,18 @@ rect {
 }
 h3 {
     margin-left: 100px;
-    
     justify-content: space-between;
     padding-top: 15px;
     justify-content: space-around;
     display:flex;
-    
 }
 .AtLast {
     background-color:green;
     color: gold;
     width: 200px;
-    
 }
 .AtLast:hover {
     background-color: purple;
-    
 }
 .circle {
     width: 100px;
@@ -187,10 +166,7 @@ h3 {
     background-color: gold;
     border-radius: 60%;
     align-items: center;
-    display:flex;
-    
-    
-}
+    display:flex;}
 .inner {
     width: 30px;
     height: 30px;
@@ -216,10 +192,6 @@ section4{
     margin-right: 40px;
     margin-left: 40px;
 }
-
-    
-    
-
 .box {
     width: 250px;
     height: 150px;
@@ -231,7 +203,6 @@ h5 {
     text-align: center;
     padding-top: 10px;
 }
-
 #end {
     background-color: green;
     color:brown;
@@ -245,7 +216,6 @@ h5 {
     background-color: gold;
     text-transform: uppercase;
 }
-
 h6 {
     margin-left: 500px;
     color: brown;
@@ -259,21 +229,12 @@ h6 {
     text-transform: uppercase;
     color: green;
 }
-
-    
-    
-    
-    
-    
-    
-
 .column {
     flex: 50%;
 }
 .height {
     line-height: 0.4cm;
 }
-
 #fixing {
     text-decoration: underline;
 }
