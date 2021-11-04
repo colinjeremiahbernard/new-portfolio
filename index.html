@@ -10,7 +10,7 @@
     <link rel="stylesheet" href = "style.css">
     <div> 
     <rect class="d-flex"> <h1 class="fine">Colin Stephenson</h1> 
-        <div> <h3> <button class="AtLast"> About me.</button> <button class="AtLast">Services.</button> <button class="AtLast">Contact me. </button></h3> </div>
+        <div> <h3><a href="#fancy"> <button class="AtLast"> About me.</button></a><a href="#fixing"><button class="AtLast">Services.</button></a> <a href="#fixing"><button class="AtLast">Contact me. </button> </a> <h3> </div>
     </rect>  
     </div>
 </head>
@@ -19,7 +19,7 @@
     <img class="beginning" src = "IMAGES/Computer image.jpg" alt=" ">
     <img class="box2" src="IMAGES/Foodbox1.png" alt = " ">
     <img class="box2" src = "IMAGES/girl-with-four-spoons-of-samples.jpg" alt="">
-    <img class="box2" src = "IMAGES/paisagem-3.png" alt = " "> </img.src>
+    <img class="box2" src = "IMAGES/paisagem-3.png" alt = " "> 
     
     <h1> Hi there, I'm <span>Colin Stephenson </span>and I'm intrigued by setting up sites.</h1>
     </div> <br><br>
@@ -28,20 +28,49 @@
         <img id="star" src="IMAGES/PHOTO AJUSTED 1.jpg" alt="">
     </div>
     <div> 
-        <button class="butao butao-1"> <p class="fancy"> About me. </p> </button>
+        <button class="butao butao-1"> <p id="fancy"> About me. </p> </button>
         <p> I am autentic, very objective, and to the point. Going through each step of the site making gives me great pleasure and utmost joy when contemplating the end product. How about getting together with me to put up some fantastic makings. <button class = "serious"> CV </button> <button class="lonely"> Learn more.</button></p> 
     </div> 
     </section1> <br><br>
     <section3 class="d-flex">
-        <div><rect class="circle"><rect class="inner"></rect></rect> <div> <h4>Full Name.</h4> </div></div>
+    <div class="container d-flex">   
+            
+               <div class="circle mx-auto"> 
+                   <div class="inner"> <br><br><br>
+                       <h4> Full name.</h4>
+                   </div>
+               </div>
+           
+    </div>  
+    <div class="container d-flex">   
         
-        <div><rect class="circle"><rect class="inner"></rect></rect><div> <h4>Email.</h4> </div></div>
+            <div class="circle mx-auto"> 
+                <div class="inner"> <br><br><br>
+                    <h4> Email.</h4>
+                </div>
+            </div>
         
-        <div><rect class="circle"><rect class="inner"></rect></rect><div> <h4>Facebook.</h4> </div></div>
+    </div>
+    <div class="container d-flex">
+         
+            <div class="circle mx-auto"> 
+                <div class="inner"> <br><br><br>
+                    <h4> Facebook.</h4>
+                </div>
+            </div>
         
-        <div><rect class="circle"><rect class="inner"></rect></rect><div> <h4>Phone number.</h4> </div></div>
-    </section3> 
-    <h1 class="fine centralize"> What I do.</h1>
+    </div> 
+    <div class="container d-flex"> 
+         
+            <div class="circle mx-auto"> 
+                <div class="inner"> <br><br><br>
+                    <h4> Phone Number.</h4>
+                </div>
+            </div>
+        
+    </div>
+    </section3> <br><br>
+    <h1 id="fixing"> What I do.</h1>
     <section4 class="d-flex" > 
         
         <div class="box">
@@ -53,8 +82,22 @@
         <div class="box">
             <img src = "IMAGES/Icon3.svg" alt="">
             <h5>Web <br> Design </h5></div>
+        <div class="box">
+            <div class="height"> 
+                
+                   <a href="https://github.com/colinjeremiahbernard/foodbox.git">
+                   <li class="good"> FoodOrder </li>
+                   <a href="https://github.com/colinjeremiahbernard/landpage.git">
+                   <li class="good"> Landpage </li>
+                   <a href="https://github.com/colinjeremiahbernard/sunny.git">
+                   <li class="good"> Sunny </li>
+                
+                <h5> Projects<br> Completed </h5> 
+               </div> 
+
+        </div>
     </section4>
-    <h1 class="fine centralize"> My Skills.</h1>
+    <h1 id="fixing"> My Skills.</h1>
     <section5 >
         <rect class="d-flex">
             <div> <h5> 45% <br>HTML </h5> </div>
@@ -63,43 +106,35 @@
             <div> <h5>4% <br> VUEJS</h5> </div>
         </rect>  
     </section5>
-    <section2 id="find"> 
-        <div> <h1 class="fine"> Projects </h1> 
-         <p>
-            <a href="https://github.com/colinjeremiahbernard/foodbox.git">
-            <li class="good"> Foodbox </li>
-            <a href="https://github.com/colinjeremiahbernard/landpage.git">
-            <li class="good"> Landpage </li>
-            <a href="https://github.com/colinjeremiahbernard/sunny.git">
-            <li class="good"> Sunny </li>
-         </p>
-        </div>
+    <section2 id="find d-flex"> 
         
-          <p> 
-              <li class="good"> First Name </li>
-              <button class="imp"> </button>
-              
-            <br><br>
-                   
-              <li class="good"> Last Name </li>
-              <button class="imp"> </button>
+        <h1 id="fixing"> Get in touch.</h1>
+        <div class="d-flex"> <br><br>
+            
+        <div class="column">
+            
+              <button class="imp" id="good"> First Name  </button>
+              <br><br>
+            
+              <button class="imp" id="good"> Email</button>
                <br><br>
-
-              <li class="good"> Email </li>
-              <button class="imp"> </button>
+        </div>
+        <div class="column">
+            
+              <button class="imp" id="good"> Last Name</button>
                <br><br>
-
-              <li class="good"> Phone </li>
-              <button class="imp"> </button>
-               <br><br>
-
-              <li class="good"> Message </li>
-              <button class="imp tant"> </button>
-               <br><br>
+               
+               <button class="imp" id="good"> Phone </button>
+                <br><br>   
+        </div>
+        </div>
+            
+              <button id="tant"> Message  </button>
+               
 
              
-          </p>
-        </div>
+          
+        
     </section2>
     <br><br>
     <button id="end"> Submit now </button>
