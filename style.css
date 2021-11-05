@@ -33,6 +33,7 @@ h1 {
     margin-top: 20px;
     padding-right: 40px;
     padding-left: 40px;
+    align-items: center;
 }
 .butao {
     height: 70px;
@@ -50,9 +51,6 @@ p {
     font-style: italic;
     border-bottom: 0;
     border-top: 0;
-}
-.butao {
-    text-align: center;
 }
 .butao:hover {
     background-color: gold;
@@ -92,10 +90,10 @@ span {
 }
 #good {
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     color: green;
 }
- .fine {
+.fine {
     text-decoration: underline gold;
     width: 400px;
 }
@@ -120,7 +118,7 @@ span {
     margin-left:430px;
     border: 2px solid aqua;
     color: green;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
     padding: 10px;
     padding-bottom: 98px;
@@ -166,7 +164,10 @@ h3 {
     background-color: gold;
     border-radius: 60%;
     align-items: center;
-    display:flex;}
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
 .inner {
     width: 30px;
     height: 30px;
@@ -185,7 +186,6 @@ h4 {
     text-align: center;
     align-items: center;
     align-self: center;
-    
 }
 section4{
     justify-content: center;
@@ -245,9 +245,5 @@ h6 {
     width: 300px;
     margin-left: 400px;
 }
-.container {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+
 
